@@ -95,4 +95,50 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+
+}
+.application {
+    background: #ffffff;
+    padding: 60px 50px;
+}
+
+.application h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background: #0a3d62;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background: #074172;
 }
